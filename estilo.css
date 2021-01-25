@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.cep-title {
+    margin: 15px 20px;
+    text-decoration: underline;
+
+}
+
+.container {
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+    background-color: #ccc;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.cep-info .cep-name {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.cep-field .fiels {
+    padding: 10px;
+   
+    
+}
+.fiels input{
+    width: 100%;
+}
+.fiels{
+    outline: none;
+    border: none;
+}
+
+.btn-cep {
+    position: absolute;
+    top: 280px;
+    left: 370px;
+}
+.btn-cep input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+}

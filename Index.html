@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo.css">
+    <title>Busca CEP</title>
+</head>
+
+<body>
+    <div class="cep-title">
+        <h1>Busca CEP</h1>
+    </div>
+
+    <div class="container">
+        <div class="cep-info">
+            <div class="cep-name">
+                <label>CEP</label>
+            </div>
+            <div class="cep-name">
+                <label>RUA</label>
+            </div>
+            <div class="cep-name">
+                <label>BAIRRO</labelabel>
+            </div>
+            <div class="cep-name">
+                <label>CIDADE</label>
+            </div>
+            <div class="cep-name">
+                <label>UF</label>
+            </div>
+        </div>
+        <div class="cep-field">
+            <div class="fiels">
+                <input type="text" id="cep" >
+            </div>
+            <div class="fiels">
+                <input type="text" id="lagradouro">
+            </div>
+            <div class="fiels">
+                <input type="text" id="bairro">
+            </div>
+            <div class="fiels">
+                <input type="text" id="cidade">
+            </div>
+            <div class="fiels">
+                <input type="text" id="uf">
+            </div>
+        </div>
+    </div>
+    <div class="btn-cep">
+        <input type="submit" value="Enviar" name="enviar">
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/cep.js"></script>
+</body>
+
+</html>
